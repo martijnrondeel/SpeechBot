@@ -1,7 +1,9 @@
 SpeechBot
 =
 
-SpeechBot is a Telegram bot written in Python that converts anything you say into a voice message using Google's Text-to-Speech API. You can chat with the official bot here: http://telegram.me/SpeechBot
+SpeechBot is a Telegram bot written in Python that converts anything you say into a voice message using Google's Text-to-Speech API.
+
+You can chat with the official bot here: http://telegram.me/SpeechBot
 
 Installation
 =
