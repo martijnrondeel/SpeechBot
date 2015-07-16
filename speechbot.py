@@ -8,9 +8,9 @@ app = Flask(__name__)
 file_name = "speech.ogg"
 languages = ["nl", "en-GB", "en-US", "fr", "de", "it", "ru", "cs", "pl", "es", "tr", "pt", "zh", "ar", "sv", "ja"]
 
-token = "token here" #Bot token
-cert = "example.crt" #SSL certificate
-key = "example.key"  #SSL key
+token = "token here" #Bot token (Example: 93181085:AAELcePZ1qabYrDiu0t1PVPuw1HI0zXzXmq)
+cert = "example.crt" #SSL certificate (Can not be self-signed)
+key = "example.key"  #SSL key (Can not be self-signed)
 
 api = "https://api.telegram.org/bot" + token
 
@@ -74,10 +74,10 @@ def main():
       else:
         selectedLanguage = 'en-GB' #Default to English if no language has been set
       
-      if len(submittedText) <= 95:
+      if len(submittedText) <= 99:
         sendVoice(chat_id, selectedLanguage, submittedText)
       else:
-        sendMessage(chat_id, "Please use less than 95 characters")
+        sendMessage(chat_id, "Please use less than 100 characters")
         return "OK"
     elif message == "/speech":
       sendMessage(chat_id, "Use the command like this: /speech Hello, I like apples")
@@ -132,4 +132,4 @@ def main():
   return "OK"
 
 if __name__ == '__main__':
-   app.run('0.0.0.0', debug=False, port=443, ssl_context=(cert, key), threaded=True)
+   app.run('0.0.0.0', debug=False, port=443, ssl_context=(cert, key), threaded=True) #Port can be 443, 80, 88, 8443
