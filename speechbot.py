@@ -117,7 +117,7 @@ def main():
                            sv (Swedish)
                            ja (Japanese)""")
       return "OK"
-    elif message.startswith("/language"):
+    elif message.startswith("/language "):
     
       language = message.replace("/language ","",1)
       
