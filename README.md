@@ -20,7 +20,7 @@ git clone https://github.com/Martyn96/SpeechBot
 ```
 (or download the [.zip](https://github.com/Martyn96/SpeechBot/archive/master.zip))
 
-Run the bot:
+Run the bot (don't forget to edit the code first to add your token, SSL certs, etc.):
 ```
 cd SpeechBot
 python speechbot.py
