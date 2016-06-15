@@ -14,9 +14,9 @@ SpeechBot requires:
 
 Download the bot:
 ```
-git clone https://github.com/Martyn96/SpeechBot
+git clone https://github.com/lasermarty/SpeechBot
 ```
-(or download the [.zip](https://github.com/Martyn96/SpeechBot/archive/master.zip))
+(or download the [.zip](https://github.com/lasermarty/SpeechBot/archive/master.zip))
 
 Run the bot (don't forget to edit the code first to add your token, SSL certs, etc.):
 ```
