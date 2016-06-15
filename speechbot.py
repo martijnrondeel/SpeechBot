@@ -94,7 +94,7 @@ def main():
     
     # /about  
     if message == "/about":
-      sendMessage(chat_id, "Source code: https://github.com/Martyn96/SpeechBot")
+      sendMessage(chat_id, "Source code: https://github.com/lasermarty/SpeechBot")
       return "OK"
     
     # /language
