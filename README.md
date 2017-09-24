@@ -14,7 +14,7 @@ SpeechBot requires:
 
 Download the bot:
 ```
-git clone https://github.com/lasermarty/SpeechBot
+git clone https://github.com/martijnrondeel/SpeechBot
 ```
 (or download the [.zip](https://github.com/martijnrondeel/SpeechBot/archive/master.zip))
 
